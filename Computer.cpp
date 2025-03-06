@@ -1,6 +1,8 @@
 #include"Computer.h"
 
-Computer::Computer() : name("Computer"){}
+Computer::Computer(){
+    this->name = "Computer";
+}
 
 char Computer::makeMove(){
     return 'R';
