@@ -3,7 +3,7 @@
 #include "Ninja.h"
 // Include other move classes
 #include "Move.h"
-//#include <iostream>
+#include <iostream>
 
 Human::Human() {
     this->name = "Human";
@@ -15,8 +15,8 @@ Human::Human(std::string name) {
 
 Move* Human::makeMove() {
     std::string playerMove;
-    //std::cout << "Enter move: ";
-    //std::cin >> playerMove;
+    std::cout << "Enter move: ";
+    std::cin >> playerMove;
 
     // Create the appropriate move object
     if (playerMove == "Robot") {
