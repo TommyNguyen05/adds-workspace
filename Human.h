@@ -16,7 +16,7 @@
 class Human : public Player{
     public:
         Human();
-        Human(std::string);
+        Human(std::string name);
         Move* makeMove();
 
 };
